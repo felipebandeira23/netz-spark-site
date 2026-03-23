@@ -5,10 +5,10 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/solucoes", label: "Soluções" },
-  { href: "/sobre", label: "Sobre" },
   { href: "/cases", label: "Cases" },
   { href: "/blog", label: "Blog" },
   { href: "/contato", label: "Contato" },
+  { href: "/sobre", label: "Sobre" },
 ];
 
 export const Header = () => {
