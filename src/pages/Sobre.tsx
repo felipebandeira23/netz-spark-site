@@ -10,7 +10,7 @@ const values = [
 ];
 
 const team = [
-  { name: "Rafael Menezes", role: "CEO & Founder", description: "Especialista em cibersegurança com mais de 15 anos de experiência em proteção de infraestrutura crítica." },
+  { name: "Paulo Renato Soares", role: "CEO & Founder", description: "Especialista em cibersegurança com mais de 15 anos de experiência em proteção de infraestrutura crítica." },
   { name: "Equipe Técnica", role: "Analistas de Segurança", description: "Profissionais certificados em CISSP, CEH, CompTIA Security+ e tecnologias líderes de mercado." },
   { name: "Parceiros", role: "Ecossistema de Tecnologia", description: "Alianças com fabricantes líderes para entregar as melhores soluções do mercado." },
 ];
