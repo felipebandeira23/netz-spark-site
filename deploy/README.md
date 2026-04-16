@@ -31,6 +31,7 @@ npm -v    # 10.x
 
 ```bash
 cd /opt
+# Substitua a URL abaixo pelo repositório correto (se privado, configure SSH ou token de acesso)
 sudo git clone https://github.com/felipebandeira23/netz-spark-site.git
 cd netz-spark-site
 sudo npm install
@@ -84,6 +85,7 @@ sudo systemctl enable nginx
 
 ```bash
 sudo apt install -y certbot python3-certbot-nginx
+# Substitua 'seudominio.com.br' pelo seu domínio real
 sudo certbot --nginx -d seudominio.com.br
 ```
 
