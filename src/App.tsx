@@ -33,7 +33,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/netz-spark-site/">
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
