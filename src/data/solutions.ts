@@ -1,4 +1,4 @@
-import { Shield, HardDrive, Users, Bug, Activity, FileCheck } from "lucide-react";
+import { Shield, HardDrive, Users, Bug, Activity, FileCheck, Server } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 export interface Solution {
@@ -108,5 +108,21 @@ export const solutions: Solution[] = [
       "Suporte a auditorias e fiscalizações",
     ],
     audience: "Organizações que tratam dados pessoais e precisam demonstrar conformidade com a LGPD e outros regulamentos.",
+  },
+  {
+    slug: "infraestrutura-rede",
+    title: "Infraestrutura, Cabeamento e Montagem de Rede",
+    shortTitle: "Infraestrutura de Rede",
+    description: "Projeto e implantação de infraestrutura de rede com cabeamento estruturado, organização de rack e configuração de ativos.",
+    longDescription: "Planejamos e executamos toda a base física e lógica da sua rede: cabeamento estruturado, certificação de pontos, montagem de rack, patch panels, switches, Wi-Fi corporativo e documentação completa. Entregamos uma rede estável, escalável e preparada para crescimento.",
+    icon: Server,
+    benefits: [
+      "Projeto de rede física e lógica sob medida",
+      "Cabeamento estruturado com identificação e organização",
+      "Montagem e organização de rack e patch panels",
+      "Configuração de switches, VLANs e Wi-Fi corporativo",
+      "Documentação técnica e mapa da infraestrutura",
+    ],
+    audience: "Empresas em expansão, mudanças de escritório ou ambientes que precisam reorganizar e padronizar sua infraestrutura de rede.",
   },
 ];
